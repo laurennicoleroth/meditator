@@ -1,0 +1,11 @@
+body {
+    background-image: url("http://i.huffpost.com/gen/1405484/images/o-MEDITATION-facebook.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
