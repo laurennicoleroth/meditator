@@ -86,3 +86,4 @@ When you have your database setup, add a route that will receive data from your 
 JSON containing the updated All-time stats. Each time the user presses space, your JS interface should send an AJAX request to the
 server with information about the last breath the user took. The server should update the All-time stats as appropriate, and then
 send the updated All-time stats to the JS interface to display to the user.
+# meditator
