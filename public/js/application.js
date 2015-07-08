@@ -1,7 +1,16 @@
 $(document).ready(function() {
-  // This is called after the document has loaded in its entirety
-  // This guarantees that any elements we bind to will exist on the page
-  // when we try to bind to them
+  var meditate; 
+  var rotation = 0;
 
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+  Mousetrap.bind('space', function() {
+  	rotation += 5;
+  	rotateBox(rotation);
+  })
+
+  function rotateBox(rotation) {
+  	$("#box").css({'-webkit-transform' : 'rotate('+ rotation +'deg)',
+                 '-moz-transform' : 'rotate('+ rotation +'deg)',
+                 '-ms-transform' : 'rotate('+ rotation +'deg)',
+                 'transform' : 'rotate('+ rotation +'deg)'});
+  }
 });
